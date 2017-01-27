@@ -23,3 +23,17 @@
   content: "|";
   padding-right: 0.3em;
 }
+
+.templates {
+  text-align: center;
+}
+
+.templates img {
+  width: 70%;
+}
+
+.templates a {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
