@@ -2,12 +2,12 @@
 <div class="row templates">
   <br/>
   <div class="col-md-4">
-    <img ng-src="/img/{{color}}.jpg" />
+    <img ng-src="/img/{{template.images[0].name}}" />
   </div>
   <div class="col-md-8">
-    <h3>{{color | capitalize}} Template</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et ultrices lorem, at tincidunt erat. Nam molestie porta varius. Fusce vel faucibus velit, at pellentesque felis. Quisque efficitur, ligula a aliquam scelerisque, lacus elit euismod est, vitae pellentesque mi felis in libero. Mauris lacinia ligula eu sodales lobortis. Proin tortor augue, luctus ut diam et, tempor iaculis mauris. Vivamus cursus sed lectus in scelerisque. Cras bibendum mi varius enim posuere, quis laoreet libero fermentum. Maecenas ultrices vitae metus et commodo. Maecenas accumsan vel mauris vestibulum fermentum. Ut ut turpis mi. Maecenas molestie consequat nibh id commodo</p>
-    <h4>$19.99</h4>
+    <h3>{{template.name}}</h3>
+    <p>{{template.description}}</p>
+    <h4>{{template.price | currency }}</h4>
     <p>BUY IT</p>
   </div>
 </div>

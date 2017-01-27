@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Blue Theme",
+    "description": "Do you want blue?? Blue is best for men!",
+    "type": "html5",
+    "price": 9.99,
+    "images": [
+      {
+        "name": "blue.jpg"
+      },
+      {
+        "name": "blue2.jpg"
+      },
+      {
+        "name": "blue3.jpg"
+      },
+      {
+        "name": "blue4.jpg"
+      },
+      {
+        "name": "blue5.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Red Theme",
+    "description": "Red is for Love! Spread the Love",
+    "type": "html5",
+    "price": 12.99,
+    "images": [
+      {
+        "name": "red.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gray Theme",
+    "description": "Grey is neither white nor black!",
+    "type": "html",
+    "price": 8.99,
+    "images": [
+      {
+        "name": "gray.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Purple Theme",
+    "description": "Some people may like purple, it is for them! ",
+    "type": "html5",
+    "price": 9.99,
+    "images": [
+      {
+        "name": "purple.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Green Theme",
+    "description": "GO Green, Always.",
+    "type": "html5",
+    "price": 15.99,
+    "images": [
+      {
+        "name": "green.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Orange Theme",
+    "description": "Umm Orange is pulp, but do not drink this one. :P",
+    "type": "html",
+    "price": 10.99,
+    "images": [
+      {
+        "name": "orange.jpg"
+      }
+    ]
+  }
+]
