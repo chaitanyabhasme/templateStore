@@ -2,12 +2,18 @@
 <div class="row templates">
   <br/>
   <div class="col-md-4">
-    <img ng-src="/img/{{template.images[0].name}}" />
+    <img ng-src="/img/{{mainImage}}" />
+    <div class="row">
+      <div class="col-md-3" ng-repeat="image in template.images | limitTo:4">
+        <img ng-src="/img/{{image.name}}" ng-click="setImage(image)" />
+      </div>
+    </div>
   </div>
   <div class="col-md-8">
     <h3>{{template.name}}</h3>
     <p>{{template.description}}</p>
+    <p>Type: {{template.type}} </p>
     <h4>{{template.price | currency }}</h4>
-    <p>BUY IT</p>
+    <a class="btn btn-primary">BUY NOW</a>
   </div>
 </div>
