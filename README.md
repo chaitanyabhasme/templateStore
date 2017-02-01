@@ -1,1 +1,1 @@
-# `MyContactsApp` — the angular CRUD app for managing your contacts.
+# `templateStore` — basic SPA to show the templates using AngularJS.
